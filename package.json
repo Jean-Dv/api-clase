@@ -1,0 +1,19 @@
+{
+  "name": "api-nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "npx jest ---verbose"
+  },
+  "keywords": [],
+  "author": "JeanDev <mrjunior127@gmail.com> (https://github.com/Jean-Dv)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
